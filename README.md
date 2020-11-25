@@ -16,3 +16,23 @@ alefh.sousa@caelum.com.br
 - http://www.melconway.com/Home/Committees_Paper.html
 - https://www.thoughtworks.com/pt/radar/techniques/inverse-conway-maneuver
 - https://pdfs.semanticscholar.org/5e5b/d4c9c0034ce0999581a7baf2c91035a6673c.pdf
+
+
+# Aula 2 - Referências:
+
+- http://www.lcvdata.com/sist_distr/explicando_falacias.pdf
+- https://microservices.io/patterns/refactoring/strangler-application.html
+- https://www.youtube.com/watch?v=64w1zbpHGTg & https://files.gotocon.com/uploads/slides/conference_16/1127/original/Monolith%20Decompositon%20Patterns%20v2%20-%2045mins.pdf
+- https://martinfowler.com/bliki/MonolithFirst.html
+- https://en.wikipedia.org/wiki/Single_source_of_truth
+- https://www.joelonsoftware.com/2000/04/06/things-you-should-never-do-part-i/
+- https://undertow.io/ & https://netty.io/ & https://javadeveloperzone.com/spring-boot/spring-boot-configure-undertow-server/
+- https://twitter.github.io/finagle/
+- https://l-nascimento-scr.medium.com/arquitetura-de-eventos-spring-cloud-stream-218995d100cf
+- http://www.cs.cornell.edu/projects/ladis2009/talks/dean-keynote-ladis2009.pdf
+- https://www.youtube.com/watch?v=modXC5IWTJI
+- https://colin-scott.github.io/personal_website/research/interactive_latency.html
+- https://microservices.io/patterns/decomposition/decompose-by-business-capability.html
+- https://microservices.io/patterns/data/shared-database.html
+- https://microservices.io/patterns/data/database-per-service.html
+- 
