@@ -1,7 +1,6 @@
 package br.com.caelum.eats.restaurante;
 
 import lombok.*;
-package br.com.caelum.eats.restaurante;
 
 import lombok.AllArgsConstructor;
 import lombok.Data;
