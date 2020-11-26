@@ -36,3 +36,15 @@ alefh.sousa@caelum.com.br
 - https://microservices.io/patterns/data/shared-database.html
 - https://microservices.io/patterns/data/database-per-service.html
 - 
+
+
+# Aula 3 - Referências
+
+- https://flywaydb.org/documentation/getstarted/how
+- https://www.liquibase.org/
+- https://access.redhat.com/documentation/en-us/red_hat_integration/2020-04/html/getting_started_with_debezium/introduction-debezium
+- https://www.amazon.com/Refactoring-Databases-Evolutionary-paperback-Addison-Wesley/dp/0321774515
+- https://hipsters.tech/estrategias-de-migracao-de-dados-no-elo7-hipsters-on-the-road-07/
+- https://microservices.io/patterns/data/transaction-log-tailing.html
+- https://debezium.io/docs/architecture/
+- https://github.com/eventuate-tram/eventuate-tram-core
