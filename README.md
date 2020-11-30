@@ -48,3 +48,33 @@ alefh.sousa@caelum.com.br
 - https://microservices.io/patterns/data/transaction-log-tailing.html
 - https://debezium.io/docs/architecture/
 - https://github.com/eventuate-tram/eventuate-tram-core
+
+
+# Aula 4 - Referências
+
+- https://www.ics.uci.edu/~fielding/pubs/dissertation/top.htm
+- https://martinfowler.com/articles/richardsonMaturityModel.html
+- https://www.yonego.com/nl/why-milliseconds-matter/
+- https://services.acm.org/public/qj/proflevel/proflevel_control.cfm?level=2&country=Brazil&form_type=Professional&promo=LEVEL
+- https://spring.io/projects/spring-cloud-gateway
+- https://kubernetes.github.io/ingress-nginx/how-it-works/
+- https://docs.nginx.com/nginx/admin-guide/web-server/reverse-proxy/
+- https://landscape.cncf.io/
+- https://www.cncf.io/
+- https://microservices.io/patterns/apigateway.html
+- https://geemus.gitbooks.io/http-api-design/
+- https://httpstatuses.com/
+
+# Aula 5 - Referências
+
+- https://github.com/Netflix/ribbon
+- https://learning.oreilly.com/library/view/typescript-microservices/9781788830751/a0e5eeeb-7704-47f9-8275-5431d1b3c764.xhtml
+- https://vertx.io/
+- https://learning.oreilly.com/library/view/designing-distributed-systems/9781491983638/ch02.html
+- https://www.apollographql.com/docs/apollo-server/testing/graphql-playground/
+- https://lucasconstantino.github.io/graphiql-online/
+- https://philcalcado.com/2015/09/18/the_back_end_for_front_end_pattern_bff.html
+- https://samnewman.io/patterns/architectural/bff/
+- https://www.youtube.com/watch?v=X48VuDVv0do
+- https://www.youtube.com/watch?v=3c-iBn73dDE
+- https://labs.getninjas.com.br/compartilhando-dados-em-uma-arquitetura-de-microsservicos-usando-graphql-35a5aca4a7dc
