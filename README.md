@@ -3,6 +3,8 @@
 Alefh
 alefh.sousa@caelum.com.br
 
+- https://miro.com/app/board/o9J_koEo7QU=/
+
 # Aula 1 - Referências
 
 - https://blog.cleancoder.com/uncle-bob/2011/09/30/Screaming-Architecture.html
@@ -78,3 +80,25 @@ alefh.sousa@caelum.com.br
 - https://www.youtube.com/watch?v=X48VuDVv0do
 - https://www.youtube.com/watch?v=3c-iBn73dDE
 - https://labs.getninjas.com.br/compartilhando-dados-em-uma-arquitetura-de-microsservicos-usando-graphql-35a5aca4a7dc
+
+
+# Aula 6 - Referências
+
+- https://cloud.spring.io/spring-cloud-netflix/multi/multi_spring-cloud-feign.html
+- https://landscape.cncf.io/category=coordination-service-discovery&format=card-mode&grouping=category
+- https://www.consul.io/
+- https://sdkman.io/
+- https://aws.amazon.com/message/11201/
+- https://sre.google/workbook/table-of-contents/
+- https://miro.medium.com/max/3022/1*yp2_sLoiC_gWHICPzMKL8A.png
+- https://d33wubrfki0l68.cloudfront.net/2475489eaf20163ec0f54ddc1d92aa8d4c87c96b/e7c81/images/docs/components-of-kubernetes.svg
+- https://istio.io/latest/docs/setup/getting-started/
+- https://github.com/envoyproxy/envoy
+- https://cloud.google.com/istio
+- https://cloud.google.com/anthos?hl=pt-br
+- https://helm.sh/
+- https://rancher.com/docs/os/v1.x/en/
+- https://linkerd.io/
+- https://reinvent.awsevents.com/
+- https://thenewstack.io/the-cloud-native-landscape-the-provisioning-layer-explained/
+- 
