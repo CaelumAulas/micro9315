@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PutMapping;
 
-@FeignClient(url = "${configuracao.pedido.servico.url}", name = "pedido")
+@FeignClient(value = "monolito")
 public interface PedidoRestClient {
 
     @PutMapping("/pedidos/{pedidoId}/pago")
@@ -14,6 +14,5 @@ public interface PedidoRestClient {
 
     @GetMapping("/pedidos/{pedidoId}")
     void buscaPedido(@PathVariable("pedidoId") Long pedidoId);
-
 
 }
