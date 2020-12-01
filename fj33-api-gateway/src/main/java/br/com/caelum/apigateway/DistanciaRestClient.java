@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.PathVariable;
 import java.util.List;
 import java.util.Map;
 
-@FeignClient(name = "distancia", url = "${configuracao.servico.distancia.url}")
+@FeignClient("distancia")
 public interface DistanciaRestClient {
 
     @GetMapping("/restaurantes/mais-proximos/{cep}")
