@@ -45,6 +45,17 @@ services:
     restart: on-failure
     networks:
       - fj33
+  rabbitmq:
+    image: "rabbitmq:3-management"
+    ports:
+      - "5672:5672"
+      - "15672:15672"
+    environment:
+      RABBITMQ_DEFAULT_USER: eats
+      RABBITMQ_DEFAULT_PASS: caelum123
+    networks:
+      - fj33
+
 networks:
   fj33:
 
