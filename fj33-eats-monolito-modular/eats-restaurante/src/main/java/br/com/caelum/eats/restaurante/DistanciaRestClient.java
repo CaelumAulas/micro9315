@@ -3,6 +3,8 @@ package br.com.caelum.eats.restaurante;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.retry.annotation.Backoff;
+import org.springframework.retry.annotation.Retryable;
 import org.springframework.stereotype.Service;
 import org.springframework.web.client.RestTemplate;
 
@@ -19,6 +21,7 @@ class DistanciaRestClient {
         this.restTemplate = restTemplate;
     }
 
+    @Retryable(maxAttempts = 5, backoff = @Backoff(delay = 1000, multiplier = 2, random = true))
     void novoRestauranteAprovado(Restaurante restaurante) {
         RestauranteParaServicoDeDistancia restauranteParaDistancia = new RestauranteParaServicoDeDistancia(restaurante);
         String url = distanciaServiceUrl+"/restaurantes";
