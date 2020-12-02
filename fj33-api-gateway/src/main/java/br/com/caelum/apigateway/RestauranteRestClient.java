@@ -6,8 +6,8 @@ import org.springframework.web.bind.annotation.PathVariable;
 
 import java.util.Map;
 
-@FeignClient("monolito")
-public interface RestaunranteRestClient {
+@FeignClient(name = "monolito", fallback = RestaunranteRestClientFallback.class)
+public interface RestauranteRestClient {
 
     @GetMapping("/restaurantes/{id}")
     Map<String, Object> porId(@PathVariable("id") Long id);
