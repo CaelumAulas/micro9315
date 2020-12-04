@@ -138,7 +138,7 @@ alefh.sousa@caelum.com.br
 - https://www.enterpriseintegrationpatterns.com/patterns/messaging/
 - https://zeromq.org/
 - https://docs.nats.io/
-- https://martinfowler.com/bliki/CQRS.html
+- https://martinfowler.com/bliki/CQRS.htmlf
 - https://www.youtube.com/watch?v=I3uH3iiiDqY
 - https://microservices.io/patterns/data/cqrs.html
 - https://microservices.io/patterns/data/event-sourcing.html
@@ -150,3 +150,23 @@ alefh.sousa@caelum.com.br
 - https://www.amazon.com.br/Domain-Driven-Design-Tackling-Complexity-Software-ebook/dp/B00794TAUG/ref=pd_sbs_351_2/147-4789231-2523351?_encoding=UTF8&pd_rd_i=B00794TAUG&pd_rd_r=ca99aa98-8b31-40ac-a384-1975074aa3b4&pd_rd_w=9Jf55&pd_rd_wg=JAfyo&pf_rd_p=dba274c4-9919-41b0-a2f8-76fb24466c03&pf_rd_r=Z9YSKBX1QZ5HHHRJR4T6&psc=1&refRID=Z9YSKBX1QZ5HHHRJR4T6
 
 
+# Aula 9 - Referências
+
+-  https://etcd.io/
+-  https://www.consul.io/
+-  https://aws.amazon.com/secrets-manager/
+-  https://docs.aws.amazon.com/systems-manager/latest/userguide/systems-manager-parameter-store.html
+-  https://www.vaultproject.io/
+-  https://azure.microsoft.com/pt-br/services/key-vault/
+-  https://docs.spring.io/spring-boot/docs/2.4.0/reference/htmlsingle/#boot-features-external-config
+-  https://docs.spring.io/spring-boot/docs/2.4.0/reference/htmlsingle/#using-boot-configuration-classes
+-  https://12factor.net/
+-  https://getsandbox.com
+-  https://pactflow.io/assets/img/pactflow/how-pact-works/slide_2.gif?v=4db608a186
+-  https://pactflow.io/
+-  https://cloud.spring.io/spring-cloud-contract/2.0.x/multi/multi__contract_dsl.html
+-  http://wiremock.org/
+-  https://www.thoughtworks.com/pt/radar/techniques/consumer-driven-contract-testing
+-  https://www.mock-server.com/
+-  http://www.mbtest.org/docs/api/mocks
+-  
