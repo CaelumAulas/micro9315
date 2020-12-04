@@ -18,12 +18,12 @@ import lombok.extern.slf4j.Slf4j;
 @RestController
 @AllArgsConstructor
 @Slf4j
-class RestaurantesController {
+public class RestaurantesController {
 
     private RestauranteRepository repo;
 
     @PostMapping("/restaurantes")
-    ResponseEntity<Restaurante> adiciona(@RequestBody Restaurante restaurante, UriComponentsBuilder uriBuilder) {
+    public ResponseEntity<Restaurante> adiciona(@RequestBody Restaurante restaurante, UriComponentsBuilder uriBuilder) {
         log.info("Insere novo restaurante: " + restaurante);
         Restaurante salvo = repo.insert(restaurante);
         UriComponents uriComponents = uriBuilder.path("/restaurantes/{id}").buildAndExpand(salvo.getId());
@@ -32,7 +32,7 @@ class RestaurantesController {
     }
 
     @PutMapping("/restaurantes/{id}")
-    Restaurante atualiza(@PathVariable("id") Long id, @RequestBody Restaurante restaurante) {
+    public Restaurante atualiza(@PathVariable("id") Long id, @RequestBody Restaurante restaurante) {
         if (!repo.existsById(id)) {
             throw new ResourceNotFoundException();
         }

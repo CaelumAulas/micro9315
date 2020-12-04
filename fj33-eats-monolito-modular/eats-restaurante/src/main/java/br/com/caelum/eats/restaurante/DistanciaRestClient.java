@@ -10,19 +10,19 @@ import org.springframework.web.client.RestTemplate;
 
 
 @Service
-class DistanciaRestClient {
+public class DistanciaRestClient {
 
     private String distanciaServiceUrl;
     private RestTemplate restTemplate;
 
-    DistanciaRestClient(RestTemplate restTemplate,
+    public DistanciaRestClient(RestTemplate restTemplate,
                         @Value("${configuracao.distancia.service.url}") String distanciaServiceUrl) {
         this.distanciaServiceUrl = distanciaServiceUrl;
         this.restTemplate = restTemplate;
     }
 
     @Retryable(maxAttempts = 5, backoff = @Backoff(delay = 1000, multiplier = 2, random = true))
-    void novoRestauranteAprovado(Restaurante restaurante) {
+    public void novoRestauranteAprovado(Restaurante restaurante) {
         RestauranteParaServicoDeDistancia restauranteParaDistancia = new RestauranteParaServicoDeDistancia(restaurante);
         String url = distanciaServiceUrl+"/restaurantes";
         ResponseEntity<RestauranteParaServicoDeDistancia> responseEntity =
@@ -33,7 +33,7 @@ class DistanciaRestClient {
         }
     }
 
-    void restauranteAtualizado(Restaurante restaurante) {
+    public void restauranteAtualizado(Restaurante restaurante) {
         RestauranteParaServicoDeDistancia restauranteParaDistancia = new RestauranteParaServicoDeDistancia(restaurante);
         String url = distanciaServiceUrl+"/restaurantes/" + restaurante.getId();
         restTemplate.put(url, restauranteParaDistancia, RestauranteParaServicoDeDistancia.class);

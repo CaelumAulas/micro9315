@@ -9,7 +9,7 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>br.com.caelum</groupId>
-	<artifactId>eats-distancia-service</artifactId>
+	<artifactId>eats-distancia-service-0.0.1-SNAPSHOT-stubs.jar</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>eats-distancia-service</name>
 
@@ -34,6 +34,13 @@
 		</dependency>
 
 		<dependency>
+			<groupId>org.springframework.cloud</groupId>
+			<artifactId>spring-cloud-starter-contract-verifier</artifactId>
+			<scope>test</scope>
+		</dependency>
+
+
+		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
 			<scope>runtime</scope>
@@ -50,6 +57,7 @@
 			<artifactId>spring-boot-starter-test</artifactId>
 			<scope>test</scope>
 		</dependency>
+
 	</dependencies>
 
 	<dependencyManagement>
@@ -71,6 +79,17 @@
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
 			</plugin>
+
+			<plugin>
+				<groupId>org.springframework.cloud</groupId>
+				<artifactId>spring-cloud-contract-maven-plugin</artifactId>
+
+				<extensions>true</extensions>
+				<configuration>
+					<packageWithBaseClasses>br.com.caelum.eats.distancia.base</packageWithBaseClasses>
+				</configuration>
+			</plugin>
+
 		</plugins>
 	</build>
 
