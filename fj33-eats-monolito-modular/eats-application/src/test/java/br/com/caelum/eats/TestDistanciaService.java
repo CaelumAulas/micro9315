@@ -23,7 +23,7 @@ public class TestDistanciaService {
     @Before
     public void before() {
         RestTemplate restTemplate = new RestTemplate();
-        distanciaRestClient = new DistanciaRestClient(restTemplate, "http://localhost:9992");
+        distanciaRestClient = new DistanciaRestClient(restTemplate, "http://localhost:9991");
     }
 
 
