@@ -55,6 +55,35 @@ services:
       RABBITMQ_DEFAULT_PASS: caelum123
     networks:
       - fj33
+  zipkin:
+    image: openzipkin/zipkin
+    ports:
+      - "9410:9410"
+      - "9411:9411"
+    depends_on:
+      - rabbitmq
+    environment:
+      RABBIT_URI: "amqp://eats:caelum123@rabbitmq:5672"
+    networks:
+      - fj33
+
+  prometheus:
+    image: prom/prometheus:v2.3.2
+    container_name: prometheus
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+    ports:
+      - 9095:9090
+    networks:
+      - fj33
+
+  grafana:
+    image: grafana/grafana:5.2.2
+    container_name: grafana
+    ports:
+      - 3000:3000
+    env_file:
+      - ./grafana.env
 
 networks:
   fj33:
